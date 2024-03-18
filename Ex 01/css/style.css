@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style: none;
+}
+body {
+  background: radial-gradient(
+    circle,
+    rgba(250, 251, 63, 1) 47%,
+    rgba(245, 185, 55, 1) 100%
+  );
+  max-width: 1000px;
+  margin: auto;
+}
+.container {
+  margin-top: 50px;
+}
+
+.header {
+  background-color: rgb(15, 15, 15);
+  width: 500px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.header h3 {
+  width: 60px;
+  color: azure;
+}
+.subtotal {
+  color: azure;
+}
+
+.container-itens {
+  display: flex;
+  margin-top: 10px;
+  gap: 20px;
+}
+.show {
+  width: 400px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  width: 100%;
+  min-height: 600px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+#list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+.list-item-name {
+  font-size: 25px;
+}
+.list-item-price {
+  font-size: 20px;
+}
+.list-item-code {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.input-container {
+  width: 200px;
+  background-color: transparent;
+  width: 100%;
+}
+.input-item {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.input-item p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.input-item input {
+  outline: none;
+  border: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 18px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.buttons button {
+  width: 150px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 5px;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
+}
+.buttons button:hover {
+  opacity: 0.8;
+}
+.buttons button:active {
+  opacity: 0.6;
+}
+.image {
+  width: 200px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  background-color: white;
+  padding: 20px 5px 5px 5px;
+  border-radius: 5px;
+}
+img {
+  width: 100%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
